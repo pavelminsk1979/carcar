@@ -19,10 +19,34 @@
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+  animation: rotate 4s;
 
   &:hover {
     font-size: 17px;
     background-color: #226a99;
     color: #fa7d7d;
+    //animation: rotate 1s;
+  }
+}
+
+@media screen and (max-width: 841px) {
+
+  .box {  // Указание селектора
+    border: 2px solid #1cf41f; // Исправлено
+  }
+
+  .buttonRight{
+    border: 2px solid #0e0e0e
+  }
+
+}
+
+// Анимация вращения
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg); // 360 * 2 = 720
   }
 }
