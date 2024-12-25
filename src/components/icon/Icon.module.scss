@@ -1,0 +1,33 @@
+.box {
+  display: flex;
+  gap: 100px;
+}
+
+.icon {
+  fill: #b1dc8e;
+  stroke: red;
+  stroke-width: 30px;
+  width: 50px;
+  height: 50px;
+  &:hover {
+    fill: #95e356;
+    stroke: blue;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.iconKrugstrelki {
+  fill: red;
+  width: 70px;
+  height: 70px;
+
+  &:hover {
+    fill: blue;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+
