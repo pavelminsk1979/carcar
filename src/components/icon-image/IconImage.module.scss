@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  gap: 100px;
+}
+
+.iconOne {
+  fill: #b1dc8e;
+  stroke: rgba(207, 29, 29, 0.13);
+  stroke-width: 30px;
+  width: 80px;
+  height: 80px;
+
+
+  &:hover {
+    stroke: rgba(7, 16, 14, 0.32);
+    fill: #8aef38;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+
+
